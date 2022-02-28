@@ -1,0 +1,89 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: Oswald;
+  color: white;
+}
+.proc{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userphoto{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+
+
+}
+.btnlog{
+    height: 30px;
+    width: fit-content;
+    padding-inline: 10px;
+    
+}
+.head {
+  text-align: center;
+  width: 100vw;
+  height: fit-content;
+  font-size: 50px;
+}
+.todoin {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+}
+.todoinput {
+  width: 400px;
+  font-size: 30px;
+}
+.add {
+  color: #00b4db;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: grid;
+  place-items: center;
+  border: none;
+  height: 100%;
+  font-size: 30px;
+  padding-inline: 10px;
+}
+.add:hover {
+  background: #00b4db;
+  color: #f7fffe;
+}
+
+.fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  border: none;
+}
+.todocon{
+    width: 100vw;
+
+
+}
